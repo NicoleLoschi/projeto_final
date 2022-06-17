@@ -364,11 +364,15 @@ a:hover {
 
 /*RESPONSIVO*/
 
-@media (max-width: 8--px){
+@media (max-width: 800px){
   .social-media {
     display: flex;
     flex-direction: column;
   }
+}
+
+.container {
+  margin-top: 0;
 }
 
 .card-container {
